@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:to_do_app/data/database.dart';
-
 import '../util/dialog_box.dart';
 import '../util/to_do_list.dart';
 

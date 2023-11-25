@@ -8,14 +8,15 @@ class ToDoList extends StatelessWidget {
   final Function(BuildContext)? deleteFunction;
   // Function(BuildContext)? settingsFunction;
 
-  const ToDoList({
-    super.key,
-    required this.taskName,
-    required this.teskCompelete,
-    required this.onChanged,
-    required this.deleteFunction,
-    // required this.settingsFunction,
-  });
+  const ToDoList(
+      {super.key,
+      required this.taskName,
+      required this.teskCompelete,
+      required this.onChanged,
+      required this.deleteFunction,
+      gi
+      // required this.settingsFunction,
+      });
 
   @override
   Widget build(BuildContext context) {
